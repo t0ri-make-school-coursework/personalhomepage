@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-size: 16px;
+}
+
+#topnav {
+    position: fixed;
+    height: 125px;
+    width: 125px;
+
+    z-index: 999;
+    margin: -68px auto auto 15px;
+
+    background-color: #606060;
+    opacity: .5;
+}
+
+#home {
+    position: relative;
+    height: 900px;
+
+    background-color: #fff;
+}
+
+#about-content {
+    position: relative;
+    height: 1080px;
+
+    width: 900px;
+    margin: auto;
+
+    background-color: #fff;
+}
+
+#projects-content {
+    position: relative;
+    height: 700px;
+
+    display: flex;
+    justify-content: center;
+
+    background-color: #fff;
+}
+
+#contact-content {
+    position: relative;
+    height: 850px;
+
+    padding: 100px 0 0 100px;
+
+    background-color: #2F2F2F;
+}
+
+aside {
+    position: relative;
+
+    margin-top: -60px;
+    margin-left: 55%;
+}
+
+footer {
+    position: absolute;
+    height: 300px;
+
+    margin-bottom: 0px;
+
+    background-color: #606060;
+}
+
+/* NAVIGATION */
+a h3 {
+    text-align: center;
+    font-size: 1em;
+    margin-top: .6em;
+
+    color: white;
+}
+
+
+/* HEY SQUARE */
+.hey-square {
+    height: 575px;
+    width: 575px;
+
+    margin: 5% auto auto 50%;
+
+    background-color: #606060;
+
+    color: #FFEB00;
+    text-align: center;
+}
+
+h1 {
+    padding-top: .55em;
+
+    font-size: 12.5em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.graphic-serif {
+    margin-top: -0.35em;
+
+    font-size: 6.25em;
+    font-family: 'Roboto Slab', serif;
+}
+
+/* ABOUT CONTENT */
+.about-sections {
+    padding-top: 9.5em;
+}
+.wrap-image {
+    width: 900px;
+    height: 220px;
+
+    padding-bottom: 3em;
+}
+
+.left img {
+    height: 220px;
+    width: 220px;
+
+    padding-right: 3em;
+
+    float: left;
+}
+
+.right img {
+    height: 220px;
+    width: 220px;
+
+    padding-left: 3em;
+
+    float: right;
+}
+
+.row-heading {
+    padding-top: 2.5em;
+
+    font-size: 1.5em;
+    font-family: 'Roboto Slab', serif;
+}
+
+.right {
+    text-align: right;
+}
+
+.row-text {
+    padding-top: 1em;
+
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* PROJECTS CONTENT */
+.column {
+    width: 300px;
+
+    margin: auto 30px auto 0;
+    text-align: center;
+}
+
+.column img {
+    height: 150px;
+    width: 150px;
+}
+
+.column-heading {
+    padding-top: 1em;
+
+    font-size: 1.5em;
+    font-family: 'Roboto Slab', serif;
+}
+
+.column-text {
+    padding-top: 1em;
+
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* CONTACT CONTENT */
+.contact-heading {
+    font-size: 7.7em;
+    font-family: 'Roboto',sans-sans-serif;
+
+    color: #fff;
+}
+
+input {
+    height: 75px;
+    width: 720px;
+
+    border: none;
+
+    font-size: 1em;
+    padding-left: 30px;
+}
+
+input[type="text"] {
+    border-radius: 15px 30px 30px 5px;
+}
+
+input[type="email"] {
+    border-radius: 5px 30px 30px 15px;
+}
+
+.name {
+    padding-bottom: 10px;
+}
+
+.message {
+    padding-top: 20px;
+}
+
+textarea {
+    width: 690px;
+    height: 300px;
+
+    border-radius: 30px;
+    border: none;
+
+    font-size: 1em;
+    padding: 10px 30px 10px 30px;
+}
+
+button {
+    width: 250px;
+    height: 75px;
+
+    margin-left: 31.85%;
+
+    border-radius: 30px;
+    border: none;
+
+    background-color: #3DBFB5;
+    color: white;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: .75em;
+}
+
+form {
+    padding: 10px 0 0 10px;
+
+    border: none;
+
+    font-size: 2em;
+
+    clear: left;
+}
+
+/* SOCIALS CONTENT */
+.socials div {
+    position: relative;
+    display: inline;
+
+    margin-top: -75px;
+    padding: 0 25px 0 25px;
+}
+
+.socials div img {
+    height: 50px;
+    width: 50px;
+}
+
+.socials a {
+    color: white;
+    text-decoration: none;
+}
+
+/* FOOTER CONTENT */
+footer {
+    width: 100%;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+
+    font-size: 1em;
+}
+
+.footer-nav p {
+    padding-bottom: 1em;
+}
+
+footer .navigation {
+    float: left;
+    margin-top: 40px;
+    margin-left: 30%;
+}
+
+footer .social-links {
+    margin-top: 40px;
+    margin-left: 42.5%;
+}
+
+h6 {
+    position: absolute;
+    margin-top: -50px;
+
+    margin-left: 10%;
+
+    font-size: 1em;
+    color: white;
+}
+
+.footer-text {
+    margin-top: -150px;
+
+    width: 250px;
+    margin-left: 10%;
+
+    color: white;
+}
