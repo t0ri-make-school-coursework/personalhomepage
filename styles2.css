@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-size: 16px;
+}
+
+/* SIZING & POSITIONING */
+
+#topnav {
+    position: fixed;
+    height: 125px;
+    width: 125px;
+
+    z-index: 999;
+}
+
+#home {
+    position: absolute;
+    height: 900px;
+}
+
+#about-content {
+    position: relative;
+    height: 1080px;
+
+    width: 900px;
+    margin: auto;
+}
+
+#projects-content {
+    height: 700px;
+}
+
+#contact-content {
+    height: 850px;
+}
+
+aside {
+
+}
+
+footer {
+    position: fixed;
+    height: 300px;
+
+    margin-bottom: 0px;
+}
+
+
+/* TEXT & COLORS */
+
+#topnav {
+    background-color: #606060;
+    opacity: .5;
+}
+
+#home {
+    background-color: #fff;
+}
+
+#about-content {
+    background-color: #fff;
+}
+
+#projects-content {
+    background-color: #fff;
+}
+
+#contact-content {
+    background-color: #2F2F2F;
+}
+
+footer {
+    background-color: #606060;
+}
